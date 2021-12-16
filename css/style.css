@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    font: 16px Verdana, Geneva, Tahoma, sans-serif;
+    color: #777;
+    height: 100%;
+}
+.conteudo {
+    padding: 50px 80px;
+    text-align: justify;
+    color: #777;
+    background-color: white;
+}
+.conteudo h3 {
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
+
+/* FORMATAÇÕES DAS IMAGENS*/
+.imagem-1, .imagem-2, .imagem-3, .imagem-4 {
+    position: relative;
+    height: 100%;
+}
+.imagem-1 {
+    background: url(../imgs/ceu-aberto-com-baloes.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+.imagem-2 {
+    background: url(../imgs/estrada-reta.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+.imagem-3 {
+    background: url(../imgs/por-do-sol.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+.imagem-4 {
+    background: url(../imgs/estrada-com-por-do-sol.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+/* FORMATAÇÕES DO TÍTULO*/
+.conteudo-titulo {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+.conteudo-titulo span.titulo {
+    font-size: 25px;
+    letter-spacing: 2px;
+    background: #111;
+    padding: 18px;
+    text-transform: uppercase;
+}
